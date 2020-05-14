@@ -1,4 +1,2 @@
-# Cloudflare Workers Internship Application: Full-Stack
-
-## My Submission
-In addition to completing the core application project, I did parts 1 and 2 of the extra credit as well (customizing values on the page and implementing cookies). I don't have my own domain so unfortunately wasn't able to do part 3. I also added a button that allowed visiters to visit the other page (since the worker sends one of two pages on random), and I did this by using Cloudflare's HTMLRewriter to add an event listener to the button that would change the cookie when the visitor clicked it.
+# Cloudflare Workers Project
+I made a fun little app that returns one of two pages on random - 50% of the time the link directs the visitor to a "win" page and 50% of the time the "lose" page. I used Javascript's fetch API, Cloudflare's internal helper classes and also implemented a browser cache that stores which page the user got (so you'll have to go incognito to get the other page). Check it out here: https://cloudflare_test.jerryjiao.workers.dev/
